@@ -6,12 +6,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="author" content="Easton Etter">
 
   <title>Bare - Start Bootstrap Template</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 
   <style>
      /* Always set the map height explicitly to define the size of the div
@@ -35,19 +35,19 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
     <div class="container">
-      <a class="navbar-brand" href="index.html">Easton Etter</a>
+      <a class="navbar-brand" href="/home.html">Easton Etter</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home
+            <a class="nav-link" href="/home.html">Home
               <span class="sr-only">(current)</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Maps\GoogleMap.html">Google Map</a>
+            <a class="nav-link" href="/example2.html">Leaflet Map</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Services</a>
@@ -66,13 +66,13 @@
       var map;
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 31.0909488, lng: -104.5682899},
-          zoom: 8
+          center: {lat: 31.23, lng: -99.238},
+          zoom: 6
         });
       }
     </script>
-    YOUR_API_KEY = AIzaSyD9GW8nmD7NNZpVnFrmZf_BfTapfxTBLBE;
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9GW8nmD7NNZpVnFrmZf_BfTapfxTBLBE&callback=initMap"
     async defer></script>
 
   </div>

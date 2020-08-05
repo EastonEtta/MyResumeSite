@@ -38,7 +38,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                 <!-- Blog entry -->
                 <div class="w3-card-4 w3-margin w3-white">
 
-                    <img src="PossumKingdomLake__/data/pk_3d/a0.png" alt="Map" style="width:100%">
+                    <a href="assets\PossumKingdomLake__\pk_3d.html"><img src="assets\PossumKingdomLake__\pk_png.png" alt="Map" style="width:100%"></a>
                     <div class="w3-container">
                         <h3><b>Full Elevation Model of Possum Kingdom Lake</b></h3>
                         <h5>Combined Digital Surface Model and Bathymetric Digital Terrain Model derived from Isobaths <span class="w3-opacity"></span></h5>
@@ -46,17 +46,15 @@ and is wrapped around the whole page content, except for the footer in this exam
 
                     <div class="w3-container">
                         <p>My goal for this project was to create a 3-D model for Possum Kingdom Lake that included the lake bottom and surrounding shores. This section of the lake was selected as an area of interest due to the
-                            unique topography. Two large cliffs create what is know as Hell's Gate. One side of Hell's Gate is an Island with steep slopes while the other narrowly connects to land. The DEM was acquired from TNRIS, Texas Natural Resource Information System. The 1 meter isobaths for the lake came
-                            from the Brazos River Authority. Each isobath represented a change in 1 meter of depth. To reduce the number of contour lines used to interpolate a DTM, Digital Terrain Model, surface I selected isobaths where modulo 10 equaled 0. I then clipped
-                            land DEM with a polygon of the lake. As a result the lake surface would equal 0. Using the Raster Calculator the DTM was added to the clipped DEM only where the DEM was equal to 0. Using this new raster surface with the Qgis2threejs plugin
-                            a 3-D model was generated along with HTML to imbed the model.</p> <a href="PossumKingdomLake__\pk_3d.html">Click here to view the 3-D Model.</a>
+                            unique topography. Two large cliffs create what is know as Hell's Gate. One side of Hell's Gate is an Island with steep slopes while the other narrowly connects to land. The DEM was acquired from TNRIS, Texas Natural
+                            Resource Information System. The 1 meter isobaths for the lake came
+                            from Brazos River Authority. Each isobath represented a change in 1 meter of depth. To reduce the number of contour lines used to interpolate a DTM, Digital Terrain Model, surface I selected isobaths where modulo 10
+                            equaled 0. I then clipped
+                            land DEM with a polygon of the lake. As a result the lake surface would equal 0. Using the Raster Calculator the DTM was added to the clipped DEM only where the DEM was equal to 0. Using this new raster surface with the
+                            Qgis2threejs plugin
+                            a 3-D model was generated along with HTML to imbed the model.  <a href="assets\PossumKingdomLake__\pk_3d.html">Click here to view the 3-D Model.</a></p> 
                         <div class="w3-row">
-                            <div class="w3-col m8 s12">
-                                <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
-                            </div>
-                            <div class="w3-col m4 w3-hide-small">
-                                <p><span class="w3-padding-large w3-right"><b>Comments </b> <span class="w3-tag">0</span></span></p>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -91,14 +89,14 @@ and is wrapped around the whole page content, except for the footer in this exam
             <div class="w3-col l4">
                 <!-- About Card -->
                 <div class="w3-card w3-margin w3-margin-top">
-                    <img src="..\assets\img\eastonPic2.png" style="width:100%">
+                    <img src="assets\img\eastonPic2.png" style="width:100%">
                     <div class="w3-container w3-white">
                         <h4><b>Easton Etter</b></h4>
                         <p>Personable and analytical graduate from Texas State University possessing a Bachelor of Science degree. Aspiring to become a GIS professional where posessed cartographic, communication, and programming skills will
                             be utilized to help organizations obtain their goals.</p>
                     </div>
                     <div style="text-align:center">
-                              <a href="..\index.html"><button class="w3-button w3-flat-clouds w3-padding-large w3-margin-bottom">Resume »</button></a>
+                        <a href="home.html"><button class="w3-button w3-flat-clouds w3-padding-large w3-margin-bottom">Resume »</button></a>
                     </div>
                 </div>
 

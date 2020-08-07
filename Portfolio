@@ -52,7 +52,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                             equaled 0. I then clipped
                             land DEM with a polygon of the lake. As a result the lake surface would equal 0. Using the Raster Calculator the DTM was added to the clipped DEM only where the DEM was equal to 0. Using this new raster surface with the
                             Qgis2threejs plugin
-                            a 3-D model was generated along with HTML to imbed the model.  <a href="assets\PossumKingdomLake__\pk_3d.html">Click here to view the 3-D Model.</a></p> 
+                            a 3-D model was generated along with HTML to imbed the model.  <a href="assets\PossumKingdomLake__\pk_3d.html">Click here to view the 3-D Model.</a></p>
                         <div class="w3-row">
 
                         </div>
@@ -62,22 +62,23 @@ and is wrapped around the whole page content, except for the footer in this exam
 
                 <!-- Blog entry -->
                 <div class="w3-card-4 w3-margin w3-white">
-                    <img src="/w3images/bridge.jpg" alt="Norway" style="width:100%">
+                    <img src="assets/img/screenshot.png" alt="Python Script" style="width:100%">
+                    <img src="assets/img/Command Prompt 8_7_2020 2_10_48 PM.png" alt="CMD" style="width:100%">
+                    <img src="assets/img/pgAdmin 4 - Mozilla Firefox 8_7_2020 2_15_55 PM.png" alt="PSQL" style="width:100%">
                     <div class="w3-container">
-                        <h3><b>BLOG ENTRY</b></h3>
-                        <h5>Title description, <span class="w3-opacity">April 2, 2014</span></h5>
+                        <h3><b>CSV to PostGIS Database</b></h3>
+                        <h5><span class="w3-opacity"><a href="https://github.com/EastonEtta/S2Py">Github Repo >></a></span></h5>
                     </div>
 
                     <div class="w3-container">
-                        <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper.
-                            Praesent tincidunt sed
-                            tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                        <p>The goal of this script was to take a csv, clean the data, and insert it into a PostGIS database. Several Python libraries were used including pandas, geopandas, sqlalchemy, geoalchemy. Pandas and geopandas are
+                            are used for data analysis and manipulation. Geopandas makes using pandas easier with spatial datatypes. Sqlalchemy gives python applications sql toolkits. Geoalchemy is an open source spatial extension for sqlalchemy.
+                             In the future this can be modified to take a variety of inputs. One of particular interst would be taking stream data or data requested from an API that could rewrite or update previous data.</p>
                         <div class="w3-row">
                             <div class="w3-col m8 s12">
-                                <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+                                <p></p>
                             </div>
                             <div class="w3-col m4 w3-hide-small">
-                                <p><span class="w3-padding-large w3-right"><b>Comments </b> <span class="w3-badge">2</span></span></p>
                             </div>
                         </div>
                     </div>
@@ -112,8 +113,6 @@ and is wrapped around the whole page content, except for the footer in this exam
 
     <!-- Footer -->
     <footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
-        <button class="w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom">Previous</button>
-        <button class="w3-button w3-black w3-padding-large w3-margin-bottom">Next »</button>
 
     </footer>
 
